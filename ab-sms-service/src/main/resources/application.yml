@@ -1,0 +1,19 @@
+server:
+  port: 8083
+spring:
+  application:
+    name: sms-service
+  redis:
+    127.0.0.1
+  rabbitmq:
+    host: 127.0.0.1
+    username: aibrainer
+    password: aibrainer
+    virtual-host: /aibrainer
+
+ab:
+  sms:
+    accessKeyId: 1 # 自己的accessKeyId
+    accessKeySecret: 1 # 自己的AccessKeySecret
+    signName: 爱标注 # 签名名称
+    verifyCodeTemplate: 1 # 模板名称

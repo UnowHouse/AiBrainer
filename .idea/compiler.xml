@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <wildcardResourcePatterns>
+      <entry name="!?*.java" />
+      <entry name="!?*.form" />
+      <entry name="!?*.class" />
+      <entry name="!?*.groovy" />
+      <entry name="!?*.scala" />
+      <entry name="!?*.flex" />
+      <entry name="!?*.kt" />
+      <entry name="!?*.clj" />
+    </wildcardResourcePatterns>
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ab-auth-interface" />
+        <module name="ab-auth-service" />
+        <module name="ab-common" />
+        <module name="ab-gateway" />
+        <module name="ab-label-interface" />
+        <module name="ab-label-service" />
+        <module name="ab-register" />
+        <module name="ab-sms-service" />
+        <module name="ab-upload-interface" />
+        <module name="ab-upload-service" />
+        <module name="ab-user-interface" />
+        <module name="ab-user-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ab-auth-center" target="1.8" />
+      <module name="ab-auth-interface" target="1.8" />
+      <module name="ab-auth-service" target="1.8" />
+      <module name="ab-common" target="1.8" />
+      <module name="ab-gateway" target="1.8" />
+      <module name="ab-label" target="1.8" />
+      <module name="ab-label-interface" target="1.8" />
+      <module name="ab-label-service" target="1.8" />
+      <module name="ab-register" target="1.8" />
+      <module name="ab-sms-service" target="1.8" />
+      <module name="ab-upload" target="1.8" />
+      <module name="ab-upload-interface" target="1.8" />
+      <module name="ab-upload-service" target="1.8" />
+      <module name="ab-user" target="1.8" />
+      <module name="ab-user-interface" target="1.8" />
+      <module name="ab-user-service" target="1.8" />
+      <module name="aibrainer" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

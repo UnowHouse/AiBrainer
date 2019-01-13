@@ -1,0 +1,40 @@
+server:
+  port: 8082
+spring:
+  application:
+    name: user-service
+  datasource:
+    url: jdbc:mysql://localhost:3306/new_aibrainer?useUnicode=true&characterEncoding=UTF8
+    password: root
+    username: root
+  redis:
+    host: 127.0.0.1
+
+  #rabbitmq连接参数
+  rabbitmq:
+    host: 127.0.0.1
+    username: aibrainer
+    password: aibrainer
+    virtual-host: /aibrainer
+    template:
+      retry: #失败重试
+        enabled: true #开启失败重试
+        initial-interval: 10000ms #第一次重试的间隔时长
+        max-interval: 210000ms #最长重试间隔，超过这个间隔将不再重试
+        multiplier: 2 #下次重试间隔的倍数，此处是2即下次重试间隔是上次的2倍
+
+    #rabbitmq消息确认
+    publisher-confirms: true #生产者确认机制，确保消息会正确发送，如果发送失败会有错误回执，从而触发重试
+
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:10086/eureka
+  instance:
+    prefer-ip-address: true
+    ip-address: 127.0.0.1
+mybatis:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+

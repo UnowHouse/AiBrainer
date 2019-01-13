@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ab-auth-center/ab-auth-center.iml" filepath="$PROJECT_DIR$/ab-auth-center/ab-auth-center.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ab-auth-center/ab-auth-interface/ab-auth-interface.iml" filepath="$PROJECT_DIR$/ab-auth-center/ab-auth-interface/ab-auth-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ab-auth-center/ab-auth-service/ab-auth-service.iml" filepath="$PROJECT_DIR$/ab-auth-center/ab-auth-service/ab-auth-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ab-common/ab-common.iml" filepath="$PROJECT_DIR$/ab-common/ab-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ab-gateway/ab-gateway.iml" filepath="$PROJECT_DIR$/ab-gateway/ab-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ab-label/ab-label.iml" filepath="$PROJECT_DIR$/ab-label/ab-label.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ab-label/ab-label-interface/ab-label-interface.iml" filepath="$PROJECT_DIR$/ab-label/ab-label-interface/ab-label-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ab-label/ab-label-service/ab-label-service.iml" filepath="$PROJECT_DIR$/ab-label/ab-label-service/ab-label-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ab-register/ab-register.iml" filepath="$PROJECT_DIR$/ab-register/ab-register.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ab-sms-service/ab-sms-service.iml" filepath="$PROJECT_DIR$/ab-sms-service/ab-sms-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ab-upload/ab-upload.iml" filepath="$PROJECT_DIR$/ab-upload/ab-upload.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ab-upload/ab-upload-interface/ab-upload-interface.iml" filepath="$PROJECT_DIR$/ab-upload/ab-upload-interface/ab-upload-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ab-upload/ab-upload-service/ab-upload-service.iml" filepath="$PROJECT_DIR$/ab-upload/ab-upload-service/ab-upload-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ab-user/ab-user.iml" filepath="$PROJECT_DIR$/ab-user/ab-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ab-user/ab-user-interface/ab-user-interface.iml" filepath="$PROJECT_DIR$/ab-user/ab-user-interface/ab-user-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ab-user/ab-user-service/ab-user-service.iml" filepath="$PROJECT_DIR$/ab-user/ab-user-service/ab-user-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aibrainer.iml" filepath="$PROJECT_DIR$/aibrainer.iml" />
+    </modules>
+  </component>
+</project>

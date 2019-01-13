@@ -1,0 +1,55 @@
+server:
+  port: 10010
+spring:
+  application:
+    name: ab-gateway
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:10086/eureka
+    registry-fetch-interval-seconds: 5
+  instance:
+    prefer-ip-address: true
+    ip-address: 127.0.0.1
+    instance-id: ${spring.application.name}:${server.port}
+zuul:
+  prefix: /api
+  routes:
+    user-service: /user/**
+    label-service: /label/**
+    auth-service: /auth/**
+    file-service: /file/**
+  add-host-header: true
+  sensitive-headers:
+  ignored-services:
+    - file-service
+hystrix:
+  command:
+    default:  #default全局有效，service id指定应用有效
+      execution:
+        isolation:
+          thread:
+            timeoutInMillisecond: 12000 # 熔断超时时长：10000ms
+
+ribbon:
+  ConnectTimeout: 10000 # 连接超时时间(ms)  ribbon请求连接的超时时间，默认值2000
+  ReadTimeout: 10000 # 通信超时时间(ms) 负载均衡超时时间，默认值5000
+  OkToRetryOnAllOperations: true # 是否对所有操作重试  对所有操作请求都进行重试,默认false
+  MaxAutoRetriesNextServer: 1 # 同一服务不同实例的重试次数 对切换实例的重试次数，默认1
+  MaxAutoRetries: 1 # 同一实例的重试次数 对当前实例的重试次数，默认0
+
+ab:
+  jwt:
+    pubKeyPath: rsa.pub # 公钥地址
+    cookieName: AB_TOKEN # cookie的名称
+  filter:
+    allowPaths:
+      - /api/label/allow
+      - /api/auth
+      - /api/user/register
+      - /api/user/check
+      - /api/user/send
+      - /api/file
+      - /api/label
+
