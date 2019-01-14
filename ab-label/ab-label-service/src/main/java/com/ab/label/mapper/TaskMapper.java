@@ -1,6 +1,8 @@
 package com.ab.label.mapper;
 
 import com.ab.label.pojo.Task;
+import org.apache.ibatis.annotations.Param;
+import org.apache.ibatis.annotations.Update;
 import tk.mybatis.mapper.common.Mapper;
 
 /*
@@ -12,4 +14,7 @@ import tk.mybatis.mapper.common.Mapper;
  *  @描述：    TODO
  */
 public interface TaskMapper extends Mapper<Task> {
+
+    @Update("UPDATE `tb_task` SET `joined` = `joined`+1 WHERE `id` = #{taskId} AND `joined` < `need_workers`")
+    int addWorkerNumber(@Param("taskId")Long taskId);
 }

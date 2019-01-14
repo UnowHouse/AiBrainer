@@ -6,6 +6,7 @@ import com.ab.label.client.FileClient;
 import com.ab.label.mapper.ClassesMapper;
 import com.ab.label.mapper.DatasMapper;
 import com.ab.label.mapper.TaskMapper;
+import com.ab.label.mapper.TaskWorkMapper;
 import com.ab.label.pojo.Classes;
 import com.ab.label.pojo.Datas;
 import com.ab.label.pojo.Task;
@@ -36,6 +37,9 @@ public class TaskService {
 
     @Autowired
     private ClassesMapper classesMapper;
+
+    @Autowired
+    private TaskWorkMapper taskWorkMapper;
 
 
     @Autowired
@@ -96,6 +100,21 @@ public class TaskService {
             data.setUserId(userId);
             data.setTaskId(taskId);
             datasMapper.insert(data);
+        }
+
+    }
+
+    @Transactional
+    public void joinTask(Long userId, Long taskId,Long workerId) {
+
+        int i = taskWorkMapper.insertTaskWork(userId, taskId, workerId);
+        if(i != 1){
+            throw new AbException(ExceptionEnum.INVAILD_JOIN);
+        }
+
+        int i1 = taskMapper.addWorkerNumber(taskId);
+        if(i1 != 1) {
+            throw new AbException(ExceptionEnum.INVAILD_JOIN);
         }
 
     }

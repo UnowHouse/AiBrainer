@@ -24,6 +24,5 @@ public class Work {
     private int maxX;
     private int maxY;
     private String label;
-    private Boolean adopt;
 
 }

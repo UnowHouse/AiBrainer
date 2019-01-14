@@ -14,9 +14,7 @@ import com.ab.label.service.TaskService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.ModelAttribute;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
 public class TaskController {
@@ -35,5 +33,20 @@ public class TaskController {
         return ResponseEntity.status(HttpStatus.CREATED).build();
     }
 
+
+    /**
+     * 工作者加入工作
+     * @param userId
+     * @param taskId
+     * @param workerId
+     * @return
+     */
+    @PutMapping("joinTask")
+    public ResponseEntity<Void> joinTask(@RequestParam(value = "userId")Long userId,
+                                         @RequestParam(value = "taskId")Long taskId,
+                                         @RequestParam(value = "workerId")Long workerId){
+        taskService.joinTask(userId,taskId,workerId);
+        return ResponseEntity.status(HttpStatus.OK).build();
+    }
 
 }

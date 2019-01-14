@@ -39,6 +39,7 @@ public class Task {
     private Integer sum;
     private Boolean isOver;
     private Integer needWorkers;
+    private Integer joined;
 
     @Transient
     private List<String> classes;
