@@ -9,6 +9,7 @@ package com.ab.label.web;
  *  @描述：    TODO
  */
 
+import com.ab.commons.vo.PageResult;
 import com.ab.label.pojo.Task;
 import com.ab.label.service.TaskService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -21,6 +22,20 @@ public class TaskController {
 
     @Autowired
     private TaskService taskService;
+
+    /**
+     * 查看平台任务页面
+     * @param page
+     * @param rows
+     * @param key
+     * @return
+     */
+    @GetMapping("page")
+    public ResponseEntity<PageResult<Task>> getTasks(@RequestParam(value = "page",defaultValue = "1")Integer page,
+                                                    @RequestParam(value = "rows",defaultValue = "10")Integer rows,
+                                                    @RequestParam(value = "key",required = false)String key){
+        return ResponseEntity.ok(taskService.selectTasks(page,rows,key));
+    }
 
     /**
      * 发布任务

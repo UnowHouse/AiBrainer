@@ -30,6 +30,7 @@ public enum ExceptionEnum {
     FILE_EXCEEDING_MAXIMUM(500,"文件超过最大容量限制"),
     ERROR_INSERT_WORK_DATA(400,"标注数据插入失败"),
     INVAILD_JOIN(400,"不被允许的加入任务请求"),
+    TASK_NOT_FOUND(404,"任务不存在"),
     ;
 
     private int status;
