@@ -1,10 +1,8 @@
 package com.ab.label.service;
 
-import com.ab.auth.entity.UserInfo;
 import com.ab.commons.enums.ExceptionEnum;
 import com.ab.commons.exception.AbException;
 import com.ab.commons.vo.PageResult;
-import com.ab.label.client.AuthClient;
 import com.ab.label.client.FileClient;
 import com.ab.label.mapper.*;
 import com.ab.label.pojo.Classes;
@@ -55,8 +53,8 @@ public class TaskService {
     @Autowired
     private FileClient fileClient;
 
-    @Autowired
-    private AuthClient authClient;
+//    @Autowired
+//    private AuthClient authClient;
 
     @Autowired
     private AmqpTemplate amqpTemplate;
@@ -202,8 +200,18 @@ public class TaskService {
     public void deleteTask(Long taskId,String token,
                            HttpServletResponse response,
                            HttpServletRequest request) {
-        UserInfo userInfo = authClient.verifyUser(token, response, request);
 
+//        UserInfo userInfo = authClient.verifyUser(token, response, request);
+//        Long userId = userInfo.getId();
+        Long userId = 1L;
+        Task task = new Task();
+        task.setUserId(userId);
+        task.setId(taskId);
+        Task task1 = taskMapper.selectOne(task);
+
+        if(task1 == null){
+            throw new AbException(ExceptionEnum.TASK_NOT_FOUND);
+        }
 
         int i = taskMapper.deleteByPrimaryKey(taskId);
         if(i != 1){
