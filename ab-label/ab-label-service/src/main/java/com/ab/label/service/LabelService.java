@@ -32,12 +32,7 @@ public class LabelService {
         if(CollectionUtils.isEmpty(labelList)){
             throw new AbException(ExceptionEnum.INVALID_PARAM);
         }
-        for (Work work : labelList){
-            int i = workMapper.insert(work);
-            if(i != 1){
-                throw new AbException(ExceptionEnum.ERROR_INSERT_WORK_DATA);
-            }
-        }
+        workMapper.insertList(labelList);
 
     }
 }

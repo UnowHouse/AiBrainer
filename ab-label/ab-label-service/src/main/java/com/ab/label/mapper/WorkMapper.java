@@ -10,7 +10,10 @@ package com.ab.label.mapper;
  */
 
 import com.ab.label.pojo.Work;
+import tk.mybatis.mapper.additional.insert.InsertListMapper;
 import tk.mybatis.mapper.common.Mapper;
 
-public interface WorkMapper extends Mapper<Work> {
+public interface WorkMapper extends Mapper<Work>,InsertListMapper<Work> {
+
+
 }

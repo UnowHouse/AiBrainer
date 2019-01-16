@@ -1,8 +1,10 @@
 package com.ab.label.service;
 
+import com.ab.auth.entity.UserInfo;
 import com.ab.commons.enums.ExceptionEnum;
 import com.ab.commons.exception.AbException;
 import com.ab.commons.vo.PageResult;
+import com.ab.label.client.AuthClient;
 import com.ab.label.client.FileClient;
 import com.ab.label.mapper.*;
 import com.ab.label.pojo.Classes;
@@ -20,6 +22,8 @@ import org.springframework.util.CollectionUtils;
 import org.springframework.web.multipart.MultipartFile;
 import tk.mybatis.mapper.entity.Example;
 
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 import java.util.Date;
 import java.util.List;
 
@@ -50,6 +54,9 @@ public class TaskService {
 
     @Autowired
     private FileClient fileClient;
+
+    @Autowired
+    private AuthClient authClient;
 
     @Autowired
     private AmqpTemplate amqpTemplate;
@@ -189,5 +196,18 @@ public class TaskService {
         PageInfo<Task> pageInfo = new PageInfo<>(tasks);
 
         return new PageResult<>(pageInfo.getTotal(),pageInfo.getPages(),pageInfo.getList());
+    }
+
+
+    public void deleteTask(Long taskId,String token,
+                           HttpServletResponse response,
+                           HttpServletRequest request) {
+        UserInfo userInfo = authClient.verifyUser(token, response, request);
+
+
+        int i = taskMapper.deleteByPrimaryKey(taskId);
+        if(i != 1){
+            throw new AbException(ExceptionEnum.TASK_NOT_FOUND);
+        }
     }
 }
