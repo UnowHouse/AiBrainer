@@ -1,8 +1,10 @@
 package com.ab.label.service;
 
+import com.ab.auth.entity.UserInfo;
 import com.ab.commons.enums.ExceptionEnum;
 import com.ab.commons.exception.AbException;
 import com.ab.commons.vo.PageResult;
+import com.ab.label.client.AuthClient;
 import com.ab.label.client.FileClient;
 import com.ab.label.mapper.*;
 import com.ab.label.pojo.Classes;
@@ -53,8 +55,8 @@ public class TaskService {
     @Autowired
     private FileClient fileClient;
 
-//    @Autowired
-//    private AuthClient authClient;
+    @Autowired
+    private AuthClient authClient;
 
     @Autowired
     private AmqpTemplate amqpTemplate;
@@ -197,13 +199,23 @@ public class TaskService {
     }
 
 
+    /**
+     * @description 删除任务，一共分3步，1.确认用户身份，2.查询任务是否存在，3.删除任务
+     *                  1.通过授权中心获取发起当前操作的用户id
+     *                  2.结合用户id和任务id进行查询，查看要删除的任务是否存在
+     *                  3.删除任务
+     * @param taskId
+     * @param token
+     * @param response
+     * @param request
+     */
     public void deleteTask(Long taskId,String token,
                            HttpServletResponse response,
                            HttpServletRequest request) {
 
-//        UserInfo userInfo = authClient.verifyUser(token, response, request);
-//        Long userId = userInfo.getId();
-        Long userId = 1L;
+        UserInfo userInfo = authClient.verifyUser(token, response, request);
+        Long userId = userInfo.getId();
+
         Task task = new Task();
         task.setUserId(userId);
         task.setId(taskId);

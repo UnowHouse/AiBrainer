@@ -69,7 +69,7 @@ public class TaskController {
 
     @DeleteMapping("deleteTask")
     public ResponseEntity<Void> deleteTask(@RequestParam(value = "taskId")Long taskId,
-                                           @CookieValue(value = "AB_TOKEN",required = false) String token,
+                                           @CookieValue(value = "AB_TOKEN") String token,
                                            HttpServletResponse response,
                                            HttpServletRequest request){
         taskService.deleteTask(taskId,token,response,request);
