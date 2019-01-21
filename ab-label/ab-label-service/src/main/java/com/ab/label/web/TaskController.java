@@ -71,10 +71,5 @@ public class TaskController {
         return ResponseEntity.status(HttpStatus.OK).build();
     }
 
-    @GetMapping("test_demo")
-    public ResponseEntity<Void> test_demo( @CookieValue(value = "AB_TOKEN") String token){
-        taskService.test1(token);
-        return ResponseEntity.status(HttpStatus.CREATED).build();
-    }
 
 }

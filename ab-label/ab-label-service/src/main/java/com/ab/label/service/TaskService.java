@@ -7,10 +7,7 @@ import com.ab.commons.vo.PageResult;
 import com.ab.label.client.AuthClient;
 import com.ab.label.client.FileClient;
 import com.ab.label.mapper.*;
-import com.ab.label.pojo.Classes;
-import com.ab.label.pojo.Datas;
-import com.ab.label.pojo.Task;
-import com.ab.label.pojo.Type;
+import com.ab.label.pojo.*;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import org.apache.commons.lang.StringUtils;
@@ -198,10 +195,11 @@ public class TaskService {
 
 
     /**
-     * @description 删除任务，一共分3步，1.确认用户身份，2.查询任务是否存在，3.删除任务
+     * @description 删除任务，一共分3步，1.确认用户身份，2.查询任务是否存在，3.删除任务及其关联数据信息
      *                  1.通过授权中心获取发起当前操作的用户id
      *                  2.结合用户id和任务id进行查询，查看要删除的任务是否存在
-     *                  3.删除任务
+     *                  3.删除task表中的的数据，删除datas表中的数据，删除taskWork表中的记录
+     *
      * @param taskId
      * @param token
      */
@@ -220,14 +218,22 @@ public class TaskService {
             throw new AbException(ExceptionEnum.TASK_NOT_FOUND);
         }
 
-        int i = taskMapper.deleteByPrimaryKey(taskId);
-        if(i != 1){
+        int taskDelete = taskMapper.deleteByPrimaryKey(taskId);
+
+        Datas datas = new Datas();
+        datas.setTaskId(taskId);
+        datasMapper.delete(datas);
+
+        TaskWork taskWork = new TaskWork();
+        taskWork.setTaskId(taskId);
+        taskWorkMapper.delete(taskWork);
+
+
+        if(taskDelete != 1){
             throw new AbException(ExceptionEnum.TASK_NOT_FOUND);
         }
         amqpTemplate.convertAndSend("task.delete",taskId);
     }
 
-    public void test1(String token) {
-        authClient.getCurrrentUserInfo(token);
-    }
+
 }
