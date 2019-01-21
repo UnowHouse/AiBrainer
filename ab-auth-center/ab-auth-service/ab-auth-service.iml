@@ -155,6 +155,7 @@
     <orderEntry type="library" name="Maven: tk.mybatis:mapper-core:1.0.4" level="project" />
     <orderEntry type="library" name="Maven: javax.persistence:persistence-api:1.0" level="project" />
     <orderEntry type="module" module-name="ab-common" />
+    <orderEntry type="module" module-name="ab-label-interface" />
     <orderEntry type="module" module-name="ab-auth-interface" />
     <orderEntry type="library" name="Maven: io.jsonwebtoken:jjwt:0.9.0" level="project" />
     <orderEntry type="library" name="Maven: joda-time:joda-time:2.9.9" level="project" />

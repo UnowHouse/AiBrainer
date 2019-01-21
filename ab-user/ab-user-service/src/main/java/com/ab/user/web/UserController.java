@@ -2,6 +2,7 @@ package com.ab.user.web;
 
 import com.ab.user.pojo.User;
 import com.ab.user.service.UserService;
+import com.ab.user.vo.Personal;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -66,6 +67,11 @@ public class UserController {
     public ResponseEntity<User> queryUser(@RequestParam("username") String username,
                                           @RequestParam("password") String password) {
         return ResponseEntity.ok(userService.queryUser(username, password));
+    }
+
+    @GetMapping("personal")
+    public ResponseEntity<Personal> getPersonal(@CookieValue("AB_TOKEN") String token){
+        return ResponseEntity.ok(userService.personalPage(token));
     }
 
 }

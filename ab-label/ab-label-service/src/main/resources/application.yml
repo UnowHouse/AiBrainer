@@ -9,6 +9,10 @@ spring:
     password: root
     username: root
 
+feign:
+  httpclient:
+    enabled: true
+
 eureka:
   client:
     service-url:

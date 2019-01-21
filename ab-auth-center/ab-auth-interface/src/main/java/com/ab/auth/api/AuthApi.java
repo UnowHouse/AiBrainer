@@ -1,11 +1,8 @@
 package com.ab.auth.api;
 
 import com.ab.auth.entity.UserInfo;
-import org.springframework.web.bind.annotation.CookieValue;
 import org.springframework.web.bind.annotation.GetMapping;
-
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
+import org.springframework.web.bind.annotation.RequestParam;
 
 /*
  *  @项目名：  aibrainer 
@@ -16,8 +13,8 @@ import javax.servlet.http.HttpServletResponse;
  *  @描述：    TODO
  */
 public interface AuthApi {
-    @GetMapping("verify")
-    UserInfo verifyUser(@CookieValue("AB_TOKEN") String token,
-                                        HttpServletResponse response,
-                                        HttpServletRequest request);
+
+    @GetMapping("userInfo")
+    public UserInfo getCurrrentUserInfo(@RequestParam("token") String token);
+
 }

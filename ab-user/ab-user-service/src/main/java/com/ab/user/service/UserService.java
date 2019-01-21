@@ -1,11 +1,16 @@
 package com.ab.user.service;
 
+import com.ab.auth.entity.UserInfo;
 import com.ab.commons.enums.ExceptionEnum;
 import com.ab.commons.exception.AbException;
 import com.ab.commons.utils.NumberUtils;
+import com.ab.label.pojo.Task;
+import com.ab.label.pojo.TaskWork;
+import com.ab.user.client.AuthClient;
 import com.ab.user.mapper.UserMapper;
 import com.ab.user.pojo.User;
 import com.ab.user.utils.CodecUtils;
+import com.ab.user.vo.Personal;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.amqp.core.AmqpTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,6 +19,7 @@ import org.springframework.stereotype.Service;
 
 import java.util.Date;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
@@ -32,10 +38,15 @@ public class UserService {
     private UserMapper userMapper;
 
     @Autowired
+    private AuthClient authClient;
+
+    @Autowired
     private StringRedisTemplate stringRedisTemplate;
 
     @Autowired
     private AmqpTemplate amqpTemplate;
+
+
 
     static final String KEY_PREFIX = "user:code:phone:";
 
@@ -137,5 +148,20 @@ public class UserService {
         }
 
         return user;
+    }
+
+    public Personal personalPage(String token) {
+
+        UserInfo userInfo = authClient.getCurrrentUserInfo(token);
+        User user = userMapper.selectByPrimaryKey(userInfo.getId());
+        if(user == null)
+            throw new AbException(ExceptionEnum.USER_CHECK_FAILURE);
+        List<Task> userTasks = userMapper.getUserTasks(userInfo.getId());
+        List<TaskWork> userWorks = userMapper.getUserWorks(userInfo.getId());
+        Personal personal = new Personal();
+        personal.setUser(user);
+        personal.setTaskList(userTasks);
+        personal.setTaskWorkList(userWorks);
+        return personal;
     }
 }

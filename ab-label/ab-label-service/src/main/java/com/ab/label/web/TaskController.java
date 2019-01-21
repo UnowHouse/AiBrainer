@@ -17,9 +17,6 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
-
 @RestController
 public class TaskController {
 
@@ -69,11 +66,15 @@ public class TaskController {
 
     @DeleteMapping("deleteTask")
     public ResponseEntity<Void> deleteTask(@RequestParam(value = "taskId")Long taskId,
-                                           @CookieValue(value = "AB_TOKEN") String token,
-                                           HttpServletResponse response,
-                                           HttpServletRequest request){
-        taskService.deleteTask(taskId,token,response,request);
+                                           @CookieValue(value = "AB_TOKEN") String token){
+        taskService.deleteTask(taskId,token);
         return ResponseEntity.status(HttpStatus.OK).build();
+    }
+
+    @GetMapping("test_demo")
+    public ResponseEntity<Void> test_demo( @CookieValue(value = "AB_TOKEN") String token){
+        taskService.test1(token);
+        return ResponseEntity.status(HttpStatus.CREATED).build();
     }
 
 }

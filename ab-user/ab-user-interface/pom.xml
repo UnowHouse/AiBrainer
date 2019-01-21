@@ -27,6 +27,11 @@
             <artifactId>ab-common</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
+        <dependency>
+            <groupId>com.ab.service</groupId>
+            <artifactId>ab-label-interface</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
     </dependencies>
 
 </project>

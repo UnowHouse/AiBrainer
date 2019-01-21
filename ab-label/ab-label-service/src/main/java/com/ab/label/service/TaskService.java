@@ -22,8 +22,6 @@ import org.springframework.util.CollectionUtils;
 import org.springframework.web.multipart.MultipartFile;
 import tk.mybatis.mapper.entity.Example;
 
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
 import java.util.Date;
 import java.util.List;
 
@@ -206,14 +204,11 @@ public class TaskService {
      *                  3.删除任务
      * @param taskId
      * @param token
-     * @param response
-     * @param request
      */
-    public void deleteTask(Long taskId,String token,
-                           HttpServletResponse response,
-                           HttpServletRequest request) {
+    @Transactional
+    public void deleteTask(Long taskId,String token) {
 
-        UserInfo userInfo = authClient.verifyUser(token, response, request);
+        UserInfo userInfo = authClient.getCurrrentUserInfo(token);
         Long userId = userInfo.getId();
 
         Task task = new Task();
@@ -229,5 +224,10 @@ public class TaskService {
         if(i != 1){
             throw new AbException(ExceptionEnum.TASK_NOT_FOUND);
         }
+        amqpTemplate.convertAndSend("task.delete",taskId);
+    }
+
+    public void test1(String token) {
+        authClient.getCurrrentUserInfo(token);
     }
 }
