@@ -51,4 +51,20 @@
       <module name="aibrainer" target="1.8" />
     </bytecodeTargetLevel>
   </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ab-auth-interface" options="-parameters" />
+      <module name="ab-auth-service" options="-parameters" />
+      <module name="ab-common" options="-parameters" />
+      <module name="ab-gateway" options="-parameters" />
+      <module name="ab-label-interface" options="-parameters" />
+      <module name="ab-label-service" options="-parameters" />
+      <module name="ab-register" options="-parameters" />
+      <module name="ab-sms-service" options="-parameters" />
+      <module name="ab-upload-interface" options="-parameters" />
+      <module name="ab-upload-service" options="-parameters" />
+      <module name="ab-user-interface" options="-parameters" />
+      <module name="ab-user-service" options="-parameters" />
+    </option>
+  </component>
 </project>

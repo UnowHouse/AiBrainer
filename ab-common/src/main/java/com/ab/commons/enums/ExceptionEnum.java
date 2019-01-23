@@ -35,4 +35,7 @@ public enum ExceptionEnum {
 
     private int status;
     private String message;
+
+
+
 }
