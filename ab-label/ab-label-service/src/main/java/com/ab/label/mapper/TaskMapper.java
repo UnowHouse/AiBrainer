@@ -17,4 +17,7 @@ public interface TaskMapper extends Mapper<Task> {
 
     @Update("UPDATE `tb_task` SET `joined` = `joined`+1 WHERE `id` = #{taskId} AND `joined` < `need_workers`")
     int addWorkerNumber(@Param("taskId")Long taskId);
+
+    @Update("UPDATE `tb_task` SET `joined` = `joined`-1 WHERE `id` = #{taskId} AND `joined` > 0")
+    int deleteWorkerNumber(@Param("taskId")Long taskId);
 }
