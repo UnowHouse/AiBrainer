@@ -16,6 +16,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public enum ExceptionEnum {
+    REMOVE_WOKER_FAILURE(500,"移除工作者失败"),
     USER_CHECK_FAILURE(401,"校验失败"),
     INVALID_PARAM(400, "参数错误"),
     USERNAME_OR_PASSWORD_ERROR(400, "账号或密码错误"),

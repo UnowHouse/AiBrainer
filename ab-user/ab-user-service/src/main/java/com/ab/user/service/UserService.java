@@ -12,7 +12,6 @@ import com.ab.user.pojo.User;
 import com.ab.user.utils.CodecUtils;
 import com.ab.user.vo.Personal;
 import org.apache.commons.lang3.StringUtils;
-import org.springframework.amqp.core.AmqpTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.stereotype.Service;
@@ -43,8 +42,8 @@ public class UserService {
     @Autowired
     private StringRedisTemplate stringRedisTemplate;
 
-    @Autowired
-    private AmqpTemplate amqpTemplate;
+//    @Autowired
+//    private AmqpTemplate amqpTemplate;
 
 
 
@@ -97,7 +96,7 @@ public class UserService {
     public void sendVerifyCode(String phone) {
 
         String code = NumberUtils.generateCode(6);
-
+        code = "123456";
         String key = KEY_PREFIX+phone;
 
         stringRedisTemplate.opsForValue().set(key,code,5, TimeUnit.MINUTES);
@@ -106,7 +105,7 @@ public class UserService {
         map.put("code",code);
         map.put("phone",key);
 
-        amqpTemplate.convertAndSend("ab.sms.exchange","sms.verify.code",map);
+//        amqpTemplate.convertAndSend("ab.sms.exchange","sms.verify.code",map);
 
     }
 
