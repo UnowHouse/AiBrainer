@@ -7,6 +7,7 @@ import com.ab.commons.utils.NumberUtils;
 import com.ab.label.pojo.Task;
 import com.ab.label.pojo.TaskWork;
 import com.ab.user.client.AuthClient;
+import com.ab.user.client.LabelClient;
 import com.ab.user.mapper.UserMapper;
 import com.ab.user.pojo.User;
 import com.ab.user.utils.CodecUtils;
@@ -38,6 +39,9 @@ public class UserService {
 
     @Autowired
     private AuthClient authClient;
+
+    @Autowired
+    private LabelClient labelClient;
 
     @Autowired
     private StringRedisTemplate stringRedisTemplate;
@@ -149,18 +153,38 @@ public class UserService {
         return user;
     }
 
+    /**
+     * @description 个人中心数据，1.获取userid,2.获取相关数据
+     *      1.通过cookie获取userid
+     *      2.获取用户个人信息
+     *      3.获取用户的所有任务
+     *      4.获取用户所参与的工作记录
+     *
+     * @param token
+     * @return
+     */
+
     public Personal personalPage(String token) {
 
         UserInfo userInfo = authClient.getCurrrentUserInfo(token);
         User user = userMapper.selectByPrimaryKey(userInfo.getId());
         if(user == null)
             throw new AbException(ExceptionEnum.USER_CHECK_FAILURE);
-        List<Task> userTasks = userMapper.getUserTasks(userInfo.getId());
-        List<TaskWork> userWorks = userMapper.getUserWorks(userInfo.getId());
+        Map<String, Object> personMsg = labelClient.getPersonMsg(token);
         Personal personal = new Personal();
         personal.setUser(user);
-        personal.setTaskList(userTasks);
-        personal.setTaskWorkList(userWorks);
+        personal.setTaskList((List<Task>) personMsg.get("userTasks"));
+        personal.setTaskWorkList((List<TaskWork>) personMsg.get("userWorks"));
         return personal;
+    }
+
+    public void updatePersonal(String token, User user) {
+        UserInfo currrentUserInfo = authClient.getCurrrentUserInfo(token);
+        Long id = currrentUserInfo.getId();
+        user.setId(id);
+        int i = userMapper.updatePersonal(user);
+        if(i != 1){
+            throw new AbException(ExceptionEnum.USER_NOT_EXIST);
+        }
     }
 }

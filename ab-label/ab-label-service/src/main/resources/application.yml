@@ -17,6 +17,7 @@ eureka:
   client:
     service-url:
       defaultZone: http://127.0.0.1:10086/eureka
+    fetch-registry: true
   instance:
     prefer-ip-address: true
     ip-address: 127.0.0.1
@@ -24,6 +25,7 @@ eureka:
 mybatis:
   configuration:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    map-underscore-to-camel-case: true
 
 
 #  rabbitmq:

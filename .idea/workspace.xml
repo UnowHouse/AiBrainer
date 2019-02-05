@@ -2,65 +2,49 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6c0091f-ec84-4e22-a9b8-7612d0cea2b7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ab-label/ab-label-service/src/main/java/com/ab/label/service/TaskWorkService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ab-label/ab-label-service/src/main/java/com/ab/label/web/TaskWorkController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_32.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_httpclient_9_4_0.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ab-auth-center/ab-auth-interface/target/classes/com/ab/auth/api/AuthApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/ab-auth-center/ab-auth-interface/target/classes/com/ab/auth/api/AuthApi.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ab-auth-center/ab-auth-interface/target/classes/com/ab/auth/entity/UserInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/ab-auth-center/ab-auth-interface/target/classes/com/ab/auth/entity/UserInfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ab-auth-center/ab-auth-interface/target/classes/com/ab/auth/utils/JwtUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/ab-auth-center/ab-auth-interface/target/classes/com/ab/auth/utils/JwtUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ab-auth-center/ab-auth-interface/target/classes/com/ab/auth/utils/ObjectUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/ab-auth-center/ab-auth-interface/target/classes/com/ab/auth/utils/ObjectUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ab-auth-center/ab-auth-interface/target/classes/com/ab/auth/utils/RsaUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/ab-auth-center/ab-auth-interface/target/classes/com/ab/auth/utils/RsaUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ab-auth-center/ab-auth-service/target/classes/com/ab/auth/AbAuthApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/ab-auth-center/ab-auth-service/target/classes/com/ab/auth/AbAuthApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ab-auth-center/ab-auth-service/target/classes/com/ab/auth/config/JwtProperties.class" beforeDir="false" afterPath="$PROJECT_DIR$/ab-auth-center/ab-auth-service/target/classes/com/ab/auth/config/JwtProperties.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ab-auth-center/ab-auth-service/target/classes/com/ab/auth/service/AuthService.class" beforeDir="false" afterPath="$PROJECT_DIR$/ab-auth-center/ab-auth-service/target/classes/com/ab/auth/service/AuthService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ab-auth-center/ab-auth-service/src/main/java/com/ab/auth/web/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ab-auth-center/ab-auth-service/src/main/java/com/ab/auth/web/AuthController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ab-auth-center/ab-auth-service/target/classes/com/ab/auth/web/AuthController.class" beforeDir="false" afterPath="$PROJECT_DIR$/ab-auth-center/ab-auth-service/target/classes/com/ab/auth/web/AuthController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ab-common/src/main/java/com/ab/commons/enums/ExceptionEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/ab-common/src/main/java/com/ab/commons/enums/ExceptionEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ab-common/target/classes/com/ab/commons/advice/CommonExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/ab-common/target/classes/com/ab/commons/advice/CommonExceptionHandler.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ab-common/target/classes/com/ab/commons/enums/ExceptionEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/ab-common/target/classes/com/ab/commons/enums/ExceptionEnum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ab-common/target/classes/com/ab/commons/exception/AbException.class" beforeDir="false" afterPath="$PROJECT_DIR$/ab-common/target/classes/com/ab/commons/exception/AbException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ab-common/target/classes/com/ab/commons/utils/CookieUtils$CookieBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/ab-common/target/classes/com/ab/commons/utils/CookieUtils$CookieBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ab-common/target/classes/com/ab/commons/utils/CookieUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/ab-common/target/classes/com/ab/commons/utils/CookieUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ab-common/target/classes/com/ab/commons/utils/IdWorker.class" beforeDir="false" afterPath="$PROJECT_DIR$/ab-common/target/classes/com/ab/commons/utils/IdWorker.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ab-common/target/classes/com/ab/commons/utils/JsonUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/ab-common/target/classes/com/ab/commons/utils/JsonUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ab-common/target/classes/com/ab/commons/utils/NumberUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/ab-common/target/classes/com/ab/commons/utils/NumberUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ab-common/target/classes/com/ab/commons/vo/ExceptionResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/ab-common/target/classes/com/ab/commons/vo/ExceptionResult.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ab-common/target/classes/com/ab/commons/vo/PageResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/ab-common/target/classes/com/ab/commons/vo/PageResult.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ab-gateway/target/classes/com/ab/gateway/AbGateway.class" beforeDir="false" afterPath="$PROJECT_DIR$/ab-gateway/target/classes/com/ab/gateway/AbGateway.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ab-gateway/target/classes/com/ab/gateway/config/FilterProperties.class" beforeDir="false" afterPath="$PROJECT_DIR$/ab-gateway/target/classes/com/ab/gateway/config/FilterProperties.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ab-gateway/target/classes/com/ab/gateway/config/JwtProperties.class" beforeDir="false" afterPath="$PROJECT_DIR$/ab-gateway/target/classes/com/ab/gateway/config/JwtProperties.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ab-gateway/target/classes/com/ab/gateway/filter/LoginFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/ab-gateway/target/classes/com/ab/gateway/filter/LoginFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ab-gateway/target/classes/com/ab/gateway/hystrix/ApiFallbackProvider$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/ab-gateway/target/classes/com/ab/gateway/hystrix/ApiFallbackProvider$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ab-gateway/target/classes/com/ab/gateway/hystrix/ApiFallbackProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/ab-gateway/target/classes/com/ab/gateway/hystrix/ApiFallbackProvider.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ab-label/ab-label-interface/src/main/java/com/ab/label/pojo/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/ab-label/ab-label-interface/src/main/java/com/ab/label/pojo/Task.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ab-label/ab-label-interface/target/classes/com/ab/label/pojo/Classes.class" beforeDir="false" afterPath="$PROJECT_DIR$/ab-label/ab-label-interface/target/classes/com/ab/label/pojo/Classes.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ab-label/ab-label-interface/target/classes/com/ab/label/pojo/Datas.class" beforeDir="false" afterPath="$PROJECT_DIR$/ab-label/ab-label-interface/target/classes/com/ab/label/pojo/Datas.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ab-label/ab-label-interface/src/main/java/com/ab/label/pojo/Work.java" beforeDir="false" afterPath="$PROJECT_DIR$/ab-label/ab-label-interface/src/main/java/com/ab/label/pojo/Work.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ab-label/ab-label-interface/target/classes/com/ab/label/pojo/Task.class" beforeDir="false" afterPath="$PROJECT_DIR$/ab-label/ab-label-interface/target/classes/com/ab/label/pojo/Task.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ab-label/ab-label-interface/target/classes/com/ab/label/pojo/TaskWork.class" beforeDir="false" afterPath="$PROJECT_DIR$/ab-label/ab-label-interface/target/classes/com/ab/label/pojo/TaskWork.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ab-label/ab-label-interface/target/classes/com/ab/label/pojo/Type.class" beforeDir="false" afterPath="$PROJECT_DIR$/ab-label/ab-label-interface/target/classes/com/ab/label/pojo/Type.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ab-label/ab-label-interface/target/classes/com/ab/label/pojo/Work.class" beforeDir="false" afterPath="$PROJECT_DIR$/ab-label/ab-label-interface/target/classes/com/ab/label/pojo/Work.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ab-label/ab-label-service/ab-label-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ab-label/ab-label-service/ab-label-service.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ab-label/ab-label-service/src/main/java/com/ab/label/mapper/TaskMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/ab-label/ab-label-service/src/main/java/com/ab/label/mapper/TaskMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ab-label/ab-label-service/src/main/java/com/ab/label/mapper/TaskWorkMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/ab-label/ab-label-service/src/main/java/com/ab/label/mapper/TaskWorkMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ab-label/ab-label-service/src/main/java/com/ab/label/mapper/WorkMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/ab-label/ab-label-service/src/main/java/com/ab/label/mapper/WorkMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ab-label/ab-label-service/src/main/java/com/ab/label/service/LabelService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ab-label/ab-label-service/src/main/java/com/ab/label/service/LabelService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ab-label/ab-label-service/src/main/java/com/ab/label/service/TaskService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ab-label/ab-label-service/src/main/java/com/ab/label/service/TaskService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ab-label/ab-label-service/src/main/java/com/ab/label/service/TaskWorkService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ab-label/ab-label-service/src/main/java/com/ab/label/service/TaskWorkService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ab-label/ab-label-service/src/main/java/com/ab/label/web/DatasController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ab-label/ab-label-service/src/main/java/com/ab/label/web/DatasController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ab-label/ab-label-service/src/main/java/com/ab/label/web/LabelController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ab-label/ab-label-service/src/main/java/com/ab/label/web/LabelController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ab-label/ab-label-service/src/main/java/com/ab/label/web/TaskController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ab-label/ab-label-service/src/main/java/com/ab/label/web/TaskController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ab-register/target/classes/ab/AbRegistry.class" beforeDir="false" afterPath="$PROJECT_DIR$/ab-register/target/classes/ab/AbRegistry.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ab-user/ab-user-interface/target/classes/com/ab/user/api/UserApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/ab-user/ab-user-interface/target/classes/com/ab/user/api/UserApi.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ab-user/ab-user-interface/target/classes/com/ab/user/pojo/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/ab-user/ab-user-interface/target/classes/com/ab/user/pojo/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ab-user/ab-user-interface/target/classes/com/ab/user/vo/Personal.class" beforeDir="false" afterPath="$PROJECT_DIR$/ab-user/ab-user-interface/target/classes/com/ab/user/vo/Personal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ab-user/ab-user-service/ab-user-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ab-user/ab-user-service/ab-user-service.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ab-label/ab-label-service/src/main/java/com/ab/label/web/TaskWorkController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ab-label/ab-label-service/src/main/java/com/ab/label/web/TaskWorkController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ab-label/ab-label-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ab-label/ab-label-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ab-label/ab-label-service/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ab-label/ab-label-service/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ab-label/ab-label-service/target/classes/com/ab/label/AbLabelApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/ab-label/ab-label-service/target/classes/com/ab/label/AbLabelApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ab-label/ab-label-service/target/classes/com/ab/label/mapper/TaskMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/ab-label/ab-label-service/target/classes/com/ab/label/mapper/TaskMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ab-label/ab-label-service/target/classes/com/ab/label/mapper/TaskWorkMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/ab-label/ab-label-service/target/classes/com/ab/label/mapper/TaskWorkMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ab-label/ab-label-service/target/classes/com/ab/label/mapper/WorkMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/ab-label/ab-label-service/target/classes/com/ab/label/mapper/WorkMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ab-label/ab-label-service/target/classes/com/ab/label/service/LabelService.class" beforeDir="false" afterPath="$PROJECT_DIR$/ab-label/ab-label-service/target/classes/com/ab/label/service/LabelService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ab-label/ab-label-service/target/classes/com/ab/label/service/TaskService.class" beforeDir="false" afterPath="$PROJECT_DIR$/ab-label/ab-label-service/target/classes/com/ab/label/service/TaskService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ab-label/ab-label-service/target/classes/com/ab/label/web/DatasController.class" beforeDir="false" afterPath="$PROJECT_DIR$/ab-label/ab-label-service/target/classes/com/ab/label/web/DatasController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ab-label/ab-label-service/target/classes/com/ab/label/web/LabelController.class" beforeDir="false" afterPath="$PROJECT_DIR$/ab-label/ab-label-service/target/classes/com/ab/label/web/LabelController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ab-label/ab-label-service/target/classes/com/ab/label/web/TaskController.class" beforeDir="false" afterPath="$PROJECT_DIR$/ab-label/ab-label-service/target/classes/com/ab/label/web/TaskController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ab-upload/ab-upload-interface/target/classes/com/ab/upload/api/FileApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/ab-upload/ab-upload-interface/target/classes/com/ab/upload/api/FileApi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ab-upload/ab-upload-service/src/main/java/com/ab/upload/service/FileService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ab-upload/ab-upload-service/src/main/java/com/ab/upload/service/FileService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ab-upload/ab-upload-service/target/classes/com/ab/upload/UploadApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/ab-upload/ab-upload-service/target/classes/com/ab/upload/UploadApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ab-upload/ab-upload-service/target/classes/com/ab/upload/service/FileService.class" beforeDir="false" afterPath="$PROJECT_DIR$/ab-upload/ab-upload-service/target/classes/com/ab/upload/service/FileService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ab-upload/ab-upload-service/target/classes/com/ab/upload/sms/config/UploadProperties.class" beforeDir="false" afterPath="$PROJECT_DIR$/ab-upload/ab-upload-service/target/classes/com/ab/upload/sms/config/UploadProperties.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ab-upload/ab-upload-service/target/classes/com/ab/upload/web/FileController.class" beforeDir="false" afterPath="$PROJECT_DIR$/ab-upload/ab-upload-service/target/classes/com/ab/upload/web/FileController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ab-user/ab-user-service/src/main/java/com/ab/user/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/ab-user/ab-user-service/src/main/java/com/ab/user/mapper/UserMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ab-user/ab-user-service/src/main/java/com/ab/user/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ab-user/ab-user-service/src/main/java/com/ab/user/service/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ab-user/ab-user-service/src/main/java/com/ab/user/web/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ab-user/ab-user-service/src/main/java/com/ab/user/web/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ab-user/ab-user-service/target/classes/com/ab/user/AbUserApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/ab-user/ab-user-service/target/classes/com/ab/user/AbUserApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ab-user/ab-user-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ab-user/ab-user-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ab-user/ab-user-service/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ab-user/ab-user-service/target/classes/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ab-user/ab-user-service/target/classes/com/ab/user/mapper/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/ab-user/ab-user-service/target/classes/com/ab/user/mapper/UserMapper.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ab-user/ab-user-service/target/classes/com/ab/user/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/ab-user/ab-user-service/target/classes/com/ab/user/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ab-user/ab-user-service/target/classes/com/ab/user/utils/CodecUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/ab-user/ab-user-service/target/classes/com/ab/user/utils/CodecUtils.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ab-user/ab-user-service/target/classes/com/ab/user/web/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/ab-user/ab-user-service/target/classes/com/ab/user/web/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -103,98 +87,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ab-user/ab-user-service/src/main/java/com/ab/user/service/UserService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="156" column="39" lean-forward="true" selection-start-line="156" selection-start-column="39" selection-end-line="156" selection-end-column="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ab-label/ab-label-interface/src/main/java/com/ab/label/pojo/Task.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="535">
-              <caret line="42" column="28" selection-start-line="42" selection-start-column="28" selection-end-line="42" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ab-label/ab-label-service/src/main/java/com/ab/label/web/LabelController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="33" column="41" selection-start-line="33" selection-start-column="41" selection-end-line="33" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ab-label/ab-label-service/src/main/java/com/ab/label/service/TaskService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1199">
-              <caret line="133" column="8" selection-start-line="133" selection-start-column="8" selection-end-line="133" selection-end-column="8" />
-              <folding>
-                <element signature="method#selectTasks#0;class#TaskService#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ab-label/ab-label-service/src/main/java/com/ab/label/service/LabelService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="28" column="32" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ab-label/ab-label-service/src/main/java/com/ab/label/mapper/TaskWorkMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="327">
-              <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ab-label/ab-label-interface/src/main/java/com/ab/label/pojo/TaskWork.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ab-label/ab-label-interface/src/main/java/com/ab/label/pojo/Work.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ab-label/ab-label-service/src/main/java/com/ab/label/mapper/TaskMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ab-label/ab-label-service/src/main/java/com/ab/label/service/DatasService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <entry file="file://$PROJECT_DIR$/readme.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="231">
+                <caret line="59" column="14" selection-start-line="59" selection-start-column="14" selection-end-line="59" selection-end-column="14" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -205,8 +105,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit4 Test Class" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -216,14 +116,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ab-upload/src/main/java/com/ab/upload/api/FileApi.java" />
-        <option value="$PROJECT_DIR$/ab-upload/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/ab-upload/pom.xml" />
-        <option value="$PROJECT_DIR$/ab-upload/ab-upload-service/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/ab-upload/ab-upload-service/src/main/java/com/ab/upload/sms/config/UploadProperties.java" />
-        <option value="$PROJECT_DIR$/ab-gateway/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/ab-gateway/src/main/java/com/ab/gateway/config/GlobalCorsConfig.java" />
-        <option value="$PROJECT_DIR$/ab-label/ab-label-service/src/test/java/com/ab/label/service/TaskServiceTest.java" />
         <option value="$PROJECT_DIR$/ab-upload/ab-upload-interface/pom.xml" />
         <option value="$PROJECT_DIR$/ab-upload/ab-upload-service/pom.xml" />
         <option value="$PROJECT_DIR$/ab-label/ab-label-service/src/main/java/com/ab/label/client/UploadService.java" />
@@ -231,13 +123,10 @@
         <option value="$PROJECT_DIR$/ab-label/ab-label-service/src/main/java/com/ab/label/client/FileClient.java" />
         <option value="$PROJECT_DIR$/ab-upload/ab-upload-service/src/main/java/com/ab/upload/web/FileController.java" />
         <option value="$PROJECT_DIR$/ab-upload/ab-upload-interface/src/main/java/com/ab/upload/api/FileApi.java" />
-        <option value="$PROJECT_DIR$/ab-upload/ab-upload-service/src/main/java/com/ab/upload/service/FileService.java" />
         <option value="$PROJECT_DIR$/ab-gateway/src/main/java/com/ab/gateway/filter/LoginFilter.java" />
-        <option value="$PROJECT_DIR$/ab-label/ab-label-interface/src/main/java/com/ab/label/pojo/Work.java" />
         <option value="$PROJECT_DIR$/ab-label/ab-label-interface/src/main/java/com/ab/label/pojo/Type.java" />
         <option value="$PROJECT_DIR$/ab-common/src/main/java/com/ab/commons/vo/PageResult.java" />
         <option value="$PROJECT_DIR$/ab-label/ab-label-service/src/main/java/com/ab/label/mapper/TypeMapper.java" />
-        <option value="$PROJECT_DIR$/ab-label/ab-label-service/src/main/java/com/ab/label/mapper/WorkMapper.java" />
         <option value="$PROJECT_DIR$/ab-user/ab-user-interface/pom.xml" />
         <option value="$PROJECT_DIR$/ab-label/ab-label-service/src/main/java/com/ab/label/AbLabelApplication.java" />
         <option value="$PROJECT_DIR$/ab-user/ab-user-service/src/main/java/com/ab/user/client/AuthClient.java" />
@@ -245,28 +134,39 @@
         <option value="$PROJECT_DIR$/ab-user/ab-user-service/src/main/java/com/ab/user/AbUserApplication.java" />
         <option value="$PROJECT_DIR$/ab-auth-center/ab-auth-service/src/main/java/com/ab/auth/client/UserClient.java" />
         <option value="$PROJECT_DIR$/ab-user/ab-user-service/pom.xml" />
-        <option value="$PROJECT_DIR$/ab-label/ab-label-service/pom.xml" />
-        <option value="$PROJECT_DIR$/ab-auth-center/ab-auth-interface/src/main/java/com/ab/auth/api/AuthApi.java" />
-        <option value="$PROJECT_DIR$/ab-auth-center/ab-auth-service/src/main/java/com/ab/auth/web/AuthController.java" />
-        <option value="$PROJECT_DIR$/ab-user/ab-user-service/src/main/java/com/ab/user/mapper/UserMapper.java" />
         <option value="$PROJECT_DIR$/ab-user/ab-user-interface/src/main/java/com/ab/user/vo/Personal.java" />
-        <option value="$PROJECT_DIR$/ab-label/ab-label-service/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/ab-user/ab-user-interface/src/main/java/com/ab/user/pojo/User.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/readme.md" />
         <option value="$PROJECT_DIR$/ab-label/ab-label-service/src/main/java/com/ab/label/web/TaskController.java" />
         <option value="$PROJECT_DIR$/ab-common/src/main/java/com/ab/commons/enums/ExceptionEnum.java" />
-        <option value="$PROJECT_DIR$/ab-label/ab-label-service/src/main/java/com/ab/label/web/TaskWorkController.java" />
-        <option value="$PROJECT_DIR$/ab-label/ab-label-service/src/main/java/com/ab/label/service/TaskWorkService.java" />
-        <option value="$PROJECT_DIR$/ab-user/ab-user-service/src/main/java/com/ab/user/web/UserController.java" />
-        <option value="$PROJECT_DIR$/ab-user/ab-user-service/src/main/java/com/ab/user/service/UserService.java" />
-        <option value="$PROJECT_DIR$/ab-label/ab-label-interface/src/main/java/com/ab/label/pojo/Task.java" />
-        <option value="$PROJECT_DIR$/ab-label/ab-label-service/src/main/java/com/ab/label/service/TaskService.java" />
-        <option value="$PROJECT_DIR$/ab-label/ab-label-service/src/main/java/com/ab/label/mapper/TaskMapper.java" />
-        <option value="$PROJECT_DIR$/ab-label/ab-label-service/src/main/java/com/ab/label/web/LabelController.java" />
         <option value="$PROJECT_DIR$/ab-label/ab-label-interface/src/main/java/com/ab/label/pojo/TaskWork.java" />
-        <option value="$PROJECT_DIR$/ab-label/ab-label-service/src/main/java/com/ab/label/mapper/TaskWorkMapper.java" />
+        <option value="$PROJECT_DIR$/ab-auth-center/ab-auth-interface/src/main/java/com/ab/auth/api/AuthApi.java" />
+        <option value="$PROJECT_DIR$/ab-label/ab-label-service/src/main/java/com/ab/label/service/TaskService.java" />
+        <option value="$PROJECT_DIR$/ab-gateway/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/ab-upload/ab-upload-service/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/ab-upload/ab-upload-service/src/main/java/com/ab/upload/service/FileService.java" />
+        <option value="$PROJECT_DIR$/ab-auth-center/ab-auth-service/src/main/java/com/ab/auth/web/AuthController.java" />
+        <option value="$PROJECT_DIR$/ab-label/ab-label-interface/src/main/java/com/ab/label/vo/WorkInfo.java" />
+        <option value="$PROJECT_DIR$/ab-label/ab-label-service/pom.xml" />
+        <option value="$PROJECT_DIR$/ab-label/ab-label-interface/src/main/java/com/ab/label/pojo/Work.java" />
+        <option value="$PROJECT_DIR$/ab-label/ab-label-service/src/main/java/com/ab/label/web/LabelController.java" />
         <option value="$PROJECT_DIR$/ab-label/ab-label-service/src/main/java/com/ab/label/service/LabelService.java" />
+        <option value="$PROJECT_DIR$/ab-label/ab-label-service/src/main/java/com/ab/label/mapper/WorkMapper.java" />
+        <option value="$PROJECT_DIR$/ab-label/ab-label-service/src/main/java/com/ab/label/mapper/TaskMapper.java" />
+        <option value="$PROJECT_DIR$/ab-label/ab-label-service/src/main/java/com/ab/label/mapper/TaskWorkMapper.java" />
+        <option value="$PROJECT_DIR$/ab-label/ab-label-service/src/main/java/com/ab/label/service/TaskWorkService.java" />
+        <option value="$PROJECT_DIR$/ab-label/ab-label-service/src/main/java/com/ab/label/web/TaskWorkController.java" />
+        <option value="$PROJECT_DIR$/ab-user/ab-user-service/src/main/java/com/ab/user/client/LabelClient.java" />
+        <option value="$PROJECT_DIR$/ab-label/ab-label-interface/src/main/java/com/ab/label/api/LabelApi.java" />
+        <option value="$PROJECT_DIR$/ab-label/ab-label-service/src/main/java/com/ab/label/web/DatasController.java" />
+        <option value="$PROJECT_DIR$/ab-label/ab-label-interface/src/main/java/com/ab/label/pojo/Classes.java" />
+        <option value="$PROJECT_DIR$/ab-label/ab-label-interface/src/main/java/com/ab/label/pojo/Task.java" />
+        <option value="$PROJECT_DIR$/ab-label/ab-label-service/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/ab-user/ab-user-service/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/ab-user/ab-user-service/src/main/java/com/ab/user/web/UserController.java" />
+        <option value="$PROJECT_DIR$/ab-user/ab-user-service/src/main/java/com/ab/user/mapper/UserMapper.java" />
+        <option value="$PROJECT_DIR$/ab-user/ab-user-service/src/main/java/com/ab/user/service/UserService.java" />
+        <option value="$PROJECT_DIR$/readme.md" />
       </list>
     </option>
   </component>
@@ -280,7 +180,17 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="ab-label-service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="ab-label-service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
@@ -296,283 +206,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
       <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="aibrainer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aibrainer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="aibrainer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aibrainer" type="462c0819:PsiDirectoryNode" />
-              <item name="ab-label" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="aibrainer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aibrainer" type="462c0819:PsiDirectoryNode" />
-              <item name="ab-label" type="462c0819:PsiDirectoryNode" />
-              <item name="ab-label-interface" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="aibrainer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aibrainer" type="462c0819:PsiDirectoryNode" />
-              <item name="ab-label" type="462c0819:PsiDirectoryNode" />
-              <item name="ab-label-interface" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="aibrainer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aibrainer" type="462c0819:PsiDirectoryNode" />
-              <item name="ab-label" type="462c0819:PsiDirectoryNode" />
-              <item name="ab-label-interface" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="aibrainer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aibrainer" type="462c0819:PsiDirectoryNode" />
-              <item name="ab-label" type="462c0819:PsiDirectoryNode" />
-              <item name="ab-label-interface" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="aibrainer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aibrainer" type="462c0819:PsiDirectoryNode" />
-              <item name="ab-label" type="462c0819:PsiDirectoryNode" />
-              <item name="ab-label-interface" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="aibrainer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aibrainer" type="462c0819:PsiDirectoryNode" />
-              <item name="ab-label" type="462c0819:PsiDirectoryNode" />
-              <item name="ab-label-interface" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ab" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="aibrainer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aibrainer" type="462c0819:PsiDirectoryNode" />
-              <item name="ab-label" type="462c0819:PsiDirectoryNode" />
-              <item name="ab-label-interface" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ab" type="462c0819:PsiDirectoryNode" />
-              <item name="label" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="aibrainer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aibrainer" type="462c0819:PsiDirectoryNode" />
-              <item name="ab-label" type="462c0819:PsiDirectoryNode" />
-              <item name="ab-label-interface" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ab" type="462c0819:PsiDirectoryNode" />
-              <item name="label" type="462c0819:PsiDirectoryNode" />
-              <item name="pojo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="aibrainer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aibrainer" type="462c0819:PsiDirectoryNode" />
-              <item name="ab-label" type="462c0819:PsiDirectoryNode" />
-              <item name="ab-label-service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="aibrainer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aibrainer" type="462c0819:PsiDirectoryNode" />
-              <item name="ab-label" type="462c0819:PsiDirectoryNode" />
-              <item name="ab-label-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="aibrainer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aibrainer" type="462c0819:PsiDirectoryNode" />
-              <item name="ab-label" type="462c0819:PsiDirectoryNode" />
-              <item name="ab-label-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="aibrainer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aibrainer" type="462c0819:PsiDirectoryNode" />
-              <item name="ab-label" type="462c0819:PsiDirectoryNode" />
-              <item name="ab-label-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="aibrainer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aibrainer" type="462c0819:PsiDirectoryNode" />
-              <item name="ab-label" type="462c0819:PsiDirectoryNode" />
-              <item name="ab-label-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="aibrainer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aibrainer" type="462c0819:PsiDirectoryNode" />
-              <item name="ab-label" type="462c0819:PsiDirectoryNode" />
-              <item name="ab-label-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ab" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="aibrainer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aibrainer" type="462c0819:PsiDirectoryNode" />
-              <item name="ab-label" type="462c0819:PsiDirectoryNode" />
-              <item name="ab-label-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ab" type="462c0819:PsiDirectoryNode" />
-              <item name="label" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="aibrainer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aibrainer" type="462c0819:PsiDirectoryNode" />
-              <item name="ab-label" type="462c0819:PsiDirectoryNode" />
-              <item name="ab-label-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ab" type="462c0819:PsiDirectoryNode" />
-              <item name="label" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="aibrainer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aibrainer" type="462c0819:PsiDirectoryNode" />
-              <item name="ab-label" type="462c0819:PsiDirectoryNode" />
-              <item name="ab-label-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ab" type="462c0819:PsiDirectoryNode" />
-              <item name="label" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="aibrainer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aibrainer" type="462c0819:PsiDirectoryNode" />
-              <item name="ab-label" type="462c0819:PsiDirectoryNode" />
-              <item name="ab-label-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ab" type="462c0819:PsiDirectoryNode" />
-              <item name="label" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="aibrainer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aibrainer" type="462c0819:PsiDirectoryNode" />
-              <item name="ab-user" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="aibrainer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aibrainer" type="462c0819:PsiDirectoryNode" />
-              <item name="ab-user" type="462c0819:PsiDirectoryNode" />
-              <item name="ab-user-service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="aibrainer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aibrainer" type="462c0819:PsiDirectoryNode" />
-              <item name="ab-user" type="462c0819:PsiDirectoryNode" />
-              <item name="ab-user-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="aibrainer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aibrainer" type="462c0819:PsiDirectoryNode" />
-              <item name="ab-user" type="462c0819:PsiDirectoryNode" />
-              <item name="ab-user-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="aibrainer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aibrainer" type="462c0819:PsiDirectoryNode" />
-              <item name="ab-user" type="462c0819:PsiDirectoryNode" />
-              <item name="ab-user-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="aibrainer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aibrainer" type="462c0819:PsiDirectoryNode" />
-              <item name="ab-user" type="462c0819:PsiDirectoryNode" />
-              <item name="ab-user-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="aibrainer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aibrainer" type="462c0819:PsiDirectoryNode" />
-              <item name="ab-user" type="462c0819:PsiDirectoryNode" />
-              <item name="ab-user-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ab" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="aibrainer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aibrainer" type="462c0819:PsiDirectoryNode" />
-              <item name="ab-user" type="462c0819:PsiDirectoryNode" />
-              <item name="ab-user-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ab" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="aibrainer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aibrainer" type="462c0819:PsiDirectoryNode" />
-              <item name="ab-user" type="462c0819:PsiDirectoryNode" />
-              <item name="ab-user-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ab" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -594,7 +230,7 @@
     <property name="android.project.structure.proportion" value="0.15" />
     <property name="android.sdk.path" value="C:/softwares/AndroidStudio/SDK" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548421079102" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549207237361" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="node" />
@@ -821,16 +457,55 @@
       <workItem from="1548167432975" duration="276000" />
       <workItem from="1548255444155" duration="2528000" />
       <workItem from="1548338988219" duration="2879000" />
-      <workItem from="1548404663338" duration="5155000" />
+      <workItem from="1548404663338" duration="7489000" />
+      <workItem from="1549094551042" duration="27153000" />
+      <workItem from="1549357154963" duration="22000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="162231000" />
+    <option name="totallyTimeSpent" value="191740000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30115274" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Image Layers" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" content_ui="combo" id="Run Dashboard" order="0" sideWeight="0.49695122" visible="true" weight="0.4309463" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.32971016" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.23273657" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5030488" side_tool="true" weight="0.49360615" />
+      <window_info anchor="bottom" id="Java Enterprise" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Spring" order="11" weight="0.32971016" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.32992327" />
+      <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.49796748" weight="0.3286445" />
+      <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="15" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven Projects" order="4" weight="0.32937366" />
+      <window_info anchor="right" id="Database" order="5" weight="0.32925072" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Bean Validation" order="7" weight="0.3299712" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info anchor="right" id="Maven" order="10" weight="0.3299712" />
+    </layout>
+    <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28602305" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
@@ -866,7 +541,7 @@
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Palette&#9;" order="9" />
       <window_info anchor="right" id="Maven" order="10" weight="0.3299712" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -888,254 +563,309 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ab-common/src/main/java/com/ab/commons/vo/PageResult.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="29" column="27" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ab-label/ab-label-interface/src/main/java/com/ab/label/pojo/Type.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ab-label/ab-label-service/src/main/java/com/ab/label/mapper/TypeMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="13" column="49" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ab-label/ab-label-service/src/main/java/com/ab/label/mapper/WorkMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ab-user/ab-user-service/src/main/java/com/ab/user/utils/CodecUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="21" column="36" lean-forward="true" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ab-auth-center/ab-auth-interface/src/main/java/com/ab/auth/entity/UserInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ab-auth-center/ab-auth-service/src/main/java/com/ab/auth/AbAuthApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ab-user/ab-user-interface/src/main/java/com/ab/user/api/UserApi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ab-user/ab-user-interface/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ab-auth-center/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" column="28" lean-forward="true" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ab-auth-center/ab-auth-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
-          <caret line="42" column="34" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ab-auth-center/ab-auth-service/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ab-auth-center/ab-auth-service/src/main/java/com/ab/auth/client/UserClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="15" column="45" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ab-label/ab-label-service/src/main/java/com/ab/label/client/AuthClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ab-auth-center/ab-auth-service/src/main/java/com/ab/auth/service/AuthService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="43" column="22" lean-forward="true" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ab-auth-center/ab-auth-interface/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ab-label/ab-label-service/src/main/java/com/ab/label/client/FileClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.9.RELEASE/spring-beans-5.0.9.RELEASE.jar!/org/springframework/beans/factory/support/FactoryBeanRegistrySupport.class" />
-    <entry file="file://$PROJECT_DIR$/ab-label/ab-label-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="48" selection-start-line="48" selection-end-line="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ab-auth-center/ab-auth-service/src/main/java/com/ab/auth/web/AuthController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1344">
-          <caret line="72" column="25" selection-start-line="72" selection-start-column="25" selection-end-line="72" selection-end-column="25" />
-          <folding />
+        <state relative-caret-position="24">
+          <caret line="33" column="35" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ab-user/ab-user-service/src/main/java/com/ab/user/client/AuthClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
+        <state relative-caret-position="62">
+          <caret line="13" column="34" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ab-user/ab-user-service/src/main/java/com/ab/user/mapper/UserMapper.java">
+    <entry file="file://$PROJECT_DIR$/ab-register/src/main/java/ab/AbRegistry.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+        <state relative-caret-position="52">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ab-user/ab-user-interface/src/main/java/com/ab/user/vo/Personal.java">
+    <entry file="file://$PROJECT_DIR$/ab-auth-center/ab-auth-service/src/main/java/com/ab/auth/AbAuthApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="21" column="39" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ab-auth-center/ab-auth-interface/src/main/java/com/ab/auth/api/AuthApi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ab-label/ab-label-service/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="696">
-          <caret line="29" column="12" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
+        <state relative-caret-position="-3">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ab-user/ab-user-service/src/main/java/com/ab/user/AbUserApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+        <state relative-caret-position="50">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ab-user/ab-user-interface/src/main/java/com/ab/user/pojo/User.java">
+    <entry file="file://$PROJECT_DIR$/ab-gateway/src/main/java/com/ab/gateway/filter/LoginFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="-2">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ab-common/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/ab-gateway/src/main/java/com/ab/gateway/AbGateway.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ab-user/pom.xml">
+    <entry file="file://$PROJECT_DIR$/ab-upload/ab-upload-interface/src/main/java/com/ab/upload/api/FileApi.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
-          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+          <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ab-user/ab-user-service/pom.xml">
+    <entry file="file://$PROJECT_DIR$/ab-upload/ab-upload-service/src/main/java/com/ab/upload/sms/config/UploadProperties.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="25" column="54" selection-start-line="25" selection-start-column="54" selection-end-line="25" selection-end-column="54" />
+        <state relative-caret-position="120">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ab-user/ab-user-service/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/ab-upload/ab-upload-service/src/main/java/com/ab/upload/service/FileService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        <state relative-caret-position="154">
+          <caret line="61" column="40" selection-start-line="61" selection-start-column="40" selection-end-line="61" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/ab-label/ab-label-service/src/main/java/com/ab/label/client/FileClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-122">
-          <caret line="33" column="35" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="214">
-            <caret line="13" column="15" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
-          </first_editor>
-          <second_editor />
+        <state relative-caret-position="101">
+          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ab-label/ab-label-service/src/main/java/com/ab/label/AbLabelApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="18" column="19" lean-forward="true" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+        <state relative-caret-position="106">
+          <caret line="17" column="22" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ab-common/src/main/java/com/ab/commons/enums/ExceptionEnum.java">
+    <entry file="file://$PROJECT_DIR$/ab-auth-center/ab-auth-service/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
+        <state relative-caret-position="96">
+          <caret line="4" column="14" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ab-gateway/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-163">
+          <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ab-user/ab-user.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ab-user/ab-user-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6">
+          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ab-upload/ab-upload-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ab-common/src/main/java/com/ab/commons/utils/CookieUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="144" column="27" selection-start-line="144" selection-start-column="27" selection-end-line="144" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ab-auth-center/ab-auth-interface/src/main/java/com/ab/auth/utils/JwtUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="92" column="60" selection-start-line="92" selection-start-column="51" selection-end-line="92" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ab-auth-center/ab-auth-interface/src/main/java/com/ab/auth/api/AuthApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ab-auth-center/ab-auth-service/src/main/java/com/ab/auth/web/AuthController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-417">
+          <caret line="72" column="73" selection-start-line="72" selection-start-column="73" selection-end-line="72" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ab-label/ab-label-service/src/main/java/com/ab/label/service/TaskService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1014">
+          <caret line="108" column="40" selection-start-line="108" selection-start-column="40" selection-end-line="108" selection-end-column="40" />
+          <folding>
+            <element signature="method#joinTask#0;class#TaskService#0" />
+            <element signature="method#selectTasks#0;class#TaskService#0" />
+            <element signature="method#deleteTask#0;class#TaskService#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ab-label/ab-label-interface/src/main/java/com/ab/label/vo/WorkInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="17" column="46" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ab-label/ab-label-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-353">
+          <caret line="68" selection-start-line="68" selection-end-line="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ab-label/ab-label-interface/src/main/java/com/ab/label/pojo/Work.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="21" column="28" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ab-label/ab-label-service/src/main/java/com/ab/label/service/LabelService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="97" column="33" selection-start-line="97" selection-start-column="33" selection-end-line="97" selection-end-column="33" />
+          <folding>
+            <element signature="method#insertWorks#0;class#LabelService#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ab-user/ab-user-interface/src/main/java/com/ab/user/vo/Personal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="20" column="31" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ab-label/ab-label-service/src/main/java/com/ab/label/mapper/TaskMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="38" column="27" selection-start-line="38" selection-start-column="15" selection-end-line="38" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ab-label/ab-label-service/src/main/java/com/ab/label/mapper/TaskWorkMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ab-label/ab-label-service/src/main/java/com/ab/label/client/AuthClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="14" column="26" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ab-label/ab-label-service/src/main/java/com/ab/label/service/TaskWorkService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="47" column="28" lean-forward="true" selection-start-line="47" selection-start-column="28" selection-end-line="47" selection-end-column="28" />
+        <state relative-caret-position="79">
+          <caret line="127" column="26" selection-start-line="127" selection-start-column="17" selection-end-line="127" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#removeWoker#0;class#TaskWorkService#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ab-label/ab-label-service/src/main/java/com/ab/label/mapper/WorkMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-185">
+          <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ab-label/ab-label-service/src/main/java/com/ab/label/web/LabelController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="41" column="25" lean-forward="true" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ab-auth-center/ab-auth-service/src/main/java/com/ab/auth/client/UserClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ab-label/ab-label-interface/src/main/java/com/ab/label/api/LabelApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ab-label/ab-label-interface/src/main/java/com/ab/label/pojo/Classes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="25" column="23" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ab-label/ab-label-interface/src/main/java/com/ab/label/pojo/Datas.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="24" column="20" lean-forward="true" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ab-label/ab-label-interface/src/main/java/com/ab/label/pojo/Task.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="50" column="46" selection-start-line="50" selection-start-column="46" selection-end-line="50" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ab-label/ab-label-interface/src/main/java/com/ab/label/pojo/TaskWork.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="23" column="21" lean-forward="true" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ab-label/ab-label-service/src/main/java/com/ab/label/web/DatasController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ab-label/ab-label-service/src/main/java/com/ab/label/web/TaskController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="34" column="47" lean-forward="true" selection-start-line="34" selection-start-column="47" selection-end-line="34" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1144,114 +874,86 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ab-label/ab-label-service/src/main/java/com/ab/label/web/TaskWorkController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="33" column="23" lean-forward="true" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
+        <state relative-caret-position="95">
+          <caret line="48" column="31" lean-forward="true" selection-start-line="48" selection-start-column="31" selection-end-line="48" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ab-label/ab-label-service/src/main/java/com/ab/label/web/DatasController.java">
+    <entry file="file://$PROJECT_DIR$/ab-upload/ab-upload-service/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state relative-caret-position="97">
+          <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ab-label/ab-label-service/src/main/java/com/ab/label/web/TaskController.java">
+    <entry file="file://$PROJECT_DIR$/ab-label/ab-label-service/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="63" column="22" lean-forward="true" selection-start-line="63" selection-start-column="22" selection-end-line="63" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="186">
+          <caret line="28" lean-forward="true" selection-start-line="27" selection-start-column="4" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ab-user/ab-user-service/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="35" column="25" lean-forward="true" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ab-user/ab-user-service/src/main/java/com/ab/user/web/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="78" column="47" lean-forward="true" selection-start-line="78" selection-start-column="47" selection-end-line="78" selection-end-column="47" />
+        <state relative-caret-position="133">
+          <caret line="83" column="63" selection-start-line="83" selection-start-column="63" selection-end-line="83" selection-end-column="63" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ab-user/ab-user-service/src/main/java/com/ab/user/service/UserService.java">
+    <entry file="file://$PROJECT_DIR$/ab-user/ab-user-interface/src/main/java/com/ab/user/pojo/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="156" column="39" lean-forward="true" selection-start-line="156" selection-start-column="39" selection-end-line="156" selection-end-column="39" />
+        <state relative-caret-position="84">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ab-label/ab-label-service/ab-label-service.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ab-label/ab-label-interface/src/main/java/com/ab/label/pojo/Task.java">
+    <entry file="file://$PROJECT_DIR$/ab-user/ab-user-service/src/main/java/com/ab/user/client/LabelClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="535">
-          <caret line="42" column="28" selection-start-line="42" selection-start-column="28" selection-end-line="42" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ab-label/ab-label-service/src/main/java/com/ab/label/service/DatasService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ab-label/ab-label-service/src/main/java/com/ab/label/web/LabelController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="33" column="41" selection-start-line="33" selection-start-column="41" selection-end-line="33" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ab-label/ab-label-interface/src/main/java/com/ab/label/pojo/Work.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ab-label/ab-label-service/src/main/java/com/ab/label/mapper/TaskMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ab-label/ab-label-interface/src/main/java/com/ab/label/pojo/TaskWork.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ab-label/ab-label-service/src/main/java/com/ab/label/mapper/TaskWorkMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ab-label/ab-label-service/src/main/java/com/ab/label/service/TaskService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1199">
-          <caret line="133" column="8" selection-start-line="133" selection-start-column="8" selection-end-line="133" selection-end-column="8" />
+        <state relative-caret-position="121">
+          <caret line="13" column="29" lean-forward="true" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
           <folding>
-            <element signature="method#selectTasks#0;class#TaskService#0" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ab-label/ab-label-service/src/main/java/com/ab/label/service/LabelService.java">
+    <entry file="file://$PROJECT_DIR$/ab-user/ab-user-service/src/main/java/com/ab/user/mapper/UserMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="28" column="32" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
+        <state relative-caret-position="229">
+          <caret line="29" column="138" selection-start-line="29" selection-start-column="138" selection-end-line="29" selection-end-column="138" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ab-user/ab-user-service/src/main/java/com/ab/user/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13">
+          <caret line="178" column="5" lean-forward="true" selection-start-line="178" selection-start-column="5" selection-end-line="178" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="231">
+            <caret line="59" column="14" selection-start-line="59" selection-start-column="14" selection-end-line="59" selection-end-column="14" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

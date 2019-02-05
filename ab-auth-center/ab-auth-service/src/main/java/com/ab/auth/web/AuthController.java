@@ -12,9 +12,6 @@ import org.springframework.boot.context.properties.EnableConfigurationProperties
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import org.springframework.web.context.request.RequestContextHolder;
-import org.springframework.web.context.request.ServletRequestAttributes;
-import org.springframework.web.context.request.ServletWebRequest;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -71,11 +68,11 @@ public class AuthController {
      * @return
      */
     @GetMapping("verify")
-    public ResponseEntity<UserInfo> verifyUser(@CookieValue("AB_TOKEN") String token
+    public ResponseEntity<UserInfo> verifyUser(@CookieValue("AB_TOKEN") String token,
+                                               HttpServletResponse response,
+                                               HttpServletRequest request
                                                ) {
         try {
-            HttpServletRequest request = ((ServletRequestAttributes) RequestContextHolder.getRequestAttributes()).getRequest();
-            HttpServletResponse response = ((ServletWebRequest)RequestContextHolder.getRequestAttributes()).getResponse();
             // 获取token信息s
             UserInfo userInfo = JwtUtils.getInfoFromToken(token, props.getPublicKey());
             //成功，刷新Token
@@ -95,6 +92,7 @@ public class AuthController {
 
     @GetMapping("userInfo")
     public ResponseEntity<UserInfo> getCurrrentUserInfo(@RequestParam("token") String token) {
+
         try {
             // 获取token信息s
             UserInfo userInfo = JwtUtils.getInfoFromToken(token, props.getPublicKey());

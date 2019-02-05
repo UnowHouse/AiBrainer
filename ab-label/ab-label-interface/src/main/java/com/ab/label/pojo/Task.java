@@ -9,6 +9,7 @@ package com.ab.label.pojo;
  *  @描述：    TODO
  */
 
+import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -40,11 +41,14 @@ public class Task {
     private Boolean isOver;
     private Integer needWorkers;
     private Integer joined;
+    private Integer labeled;
 
     @Transient
+    @JsonInclude(JsonInclude.Include.NON_NULL)
     private List<String> classes;
 
     @Transient
+    @JsonInclude(JsonInclude.Include.NON_NULL)
     private List<MultipartFile> files;
 
 

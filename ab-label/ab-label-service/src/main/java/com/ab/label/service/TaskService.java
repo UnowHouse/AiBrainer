@@ -84,9 +84,8 @@ public class TaskService {
 
         // 新增classes自定义标签
         List<String> classes = task.getClasses();
-        Task currentTask = taskMapper.selectOne(task);
-        Long taskId = currentTask.getId();
-        Long userId = task.getId();
+        Long taskId = task.getId();
+        Long userId = task.getUserId();
 
         if (CollectionUtils.isEmpty(classes) || taskId == null || userId == null) {
             throw new AbException(ExceptionEnum.ERROR_ADD_TASK);
@@ -112,7 +111,7 @@ public class TaskService {
             data.setTaskId(taskId);
             datasMapper.insert(data);
         }
-        amqpTemplate.convertAndSend("task.insert",currentTask.getId());
+//        amqpTemplate.convertAndSend("task.insert",currentTask.getId());
     }
 
     /**
@@ -131,6 +130,7 @@ public class TaskService {
      */
     @Transactional
     public void joinTask(Long userId, Long taskId,Long workerId) {
+
 
         int i1 = taskMapper.addWorkerNumber(taskId);
         if(i1 != 1) {

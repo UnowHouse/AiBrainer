@@ -59,6 +59,7 @@ public class FileService {
                 throw new AbException(ExceptionEnum.INVALID_FILE_TYPE);
             }
             if(file.getSize()>uploadProperties.getMaxSize()){
+                System.out.println(file.getSize()+":"+uploadProperties.getMaxSize());
                 throw new AbException(ExceptionEnum.FILE_EXCEEDING_MAXIMUM);
             }
             //上传到fastFDS

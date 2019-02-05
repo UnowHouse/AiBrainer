@@ -69,9 +69,21 @@ public class UserController {
         return ResponseEntity.ok(userService.queryUser(username, password));
     }
 
+    /**
+     * 个人中心
+     * @param token
+     * @return
+     */
     @GetMapping("personal")
     public ResponseEntity<Personal> getPersonal(@CookieValue("AB_TOKEN") String token){
         return ResponseEntity.ok(userService.personalPage(token));
+    }
+
+    @PutMapping("editPersonal")
+    public ResponseEntity<Void> editPersonal(@CookieValue("AB_TOKEN") String token,
+                                               @RequestBody User user){
+        userService.updatePersonal(token,user);
+        return ResponseEntity.status(HttpStatus.OK).build();
     }
 
 }

@@ -3,7 +3,11 @@ package com.ab.label.mapper;
 import com.ab.label.pojo.TaskWork;
 import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Param;
+import org.apache.ibatis.annotations.Select;
+import org.apache.ibatis.annotations.Update;
 import tk.mybatis.mapper.common.Mapper;
+
+import java.util.List;
 
 /*
  *  @项目名：  aibrainer 
@@ -27,4 +31,16 @@ public interface TaskWorkMapper extends Mapper<TaskWork> {
             "<=\n" +
             "(SELECT `exp` FROM `tb_user` WHERE `id` = #{workerId})  ")
     int insertTaskWork(@Param("userId")Long userId,@Param("taskId")Long taskId,@Param("workerId")Long workerId);
+
+
+    @Update("UPDATE `tb_task_work` set `adapt_num` = `adapt_num` + #{taskWork.adaptNum} " +
+            "WHERE `task_id` = (SELECT `task_id` FROM `tb_data` WHERE `id` = #{dataId} ) " +
+            "AND `worker_id` = #{taskWork.workerId}")
+    int updateTaskWork(@Param("dataId") Long dataId, @Param("taskWork") TaskWork taskWork);
+
+    @Select("SELECT * FROM `tb_task_work` WHERE `user_id` = #{userId}")
+    List<TaskWork> getUserWorks(@Param("userId")Long userId);
+
+
+
 }

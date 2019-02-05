@@ -9,6 +9,7 @@ package com.ab.label.pojo;
  *  @描述：    TODO
  */
 
+import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.Data;
 
 import javax.persistence.Table;
@@ -18,10 +19,15 @@ import javax.persistence.Table;
 public class Work {
 
     private Long dataId;
+    @JsonInclude(JsonInclude.Include.NON_NULL)
     private Long workerId;
+    @JsonInclude(JsonInclude.Include.NON_NULL)
     private int minX;
+    @JsonInclude(JsonInclude.Include.NON_NULL)
     private int minY;
+    @JsonInclude(JsonInclude.Include.NON_NULL)
     private int maxX;
+    @JsonInclude(JsonInclude.Include.NON_NULL)
     private int maxY;
     private String label;
 
